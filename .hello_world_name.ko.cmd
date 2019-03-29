@@ -1,0 +1,1 @@
+cmd_/home/nirmal/Desktop/hello_world/hello_world_name.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/nirmal/Desktop/hello_world/hello_world_name.ko /home/nirmal/Desktop/hello_world/hello_world_name.o /home/nirmal/Desktop/hello_world/hello_world_name.mod.o ;  true
